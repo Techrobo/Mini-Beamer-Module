@@ -14,7 +14,7 @@ import time
 
 
 #Used in __init__.py to initilize doc_name as assembly
-from doe_config_Beamer import __path__, doc_name  #https://stackoverflow.com/questions/2699287/what-is-path-useful-for
+from MiniBeamerModule import __path__, doc_name  #https://stackoverflow.com/questions/2699287/what-is-path-useful-for
 #from doe_config_Beamer.bom import make_BOM    #importing method make_BOM from bom.py
 source_path = os.path.join(__path__[0], 'step')	#__path__ variable take default system folder (doe_config_main) and then go to step folder
 source_path = os.path.normpath(source_path) #normalize the path based on operating system eg windows has \\ mac has /
