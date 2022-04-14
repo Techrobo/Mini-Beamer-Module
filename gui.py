@@ -6,7 +6,7 @@ import os.path
 import os
 from stat import S_ISDIR
 
-from doe_config_Beamer.cad import make_parts, close_document, save_parts
+from .cad import make_parts, close_document, save_parts
 #from doe_config_main.laser import suggest_laser
 
 
