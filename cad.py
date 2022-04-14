@@ -495,12 +495,12 @@ def make_parts(*, csv_filename=None, params=None):						#Plot Part
     
     #Show parts in a nice View
     App.activeDocument().recompute()
-    Gui.activeDocument().activeView().viewTop()
+    Gui.activeDocument().activeView().viewRear()
     #Gui.activeDocument().activeView().viewAxometric()
     Gui.SendMsgToActiveView("ViewFit")
 
-#params=(120,120,45,20,20)
-#make_parts(params=params)
+params=(120,120,45,20,20)
+make_parts(params=params)
 
 ########################################################################
 
