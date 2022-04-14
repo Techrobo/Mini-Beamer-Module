@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+import sys
+
+#sys.path.append('C:/Users/usf/Python/Morphoa')
+sys.path.append('/Users/admin/Documents/Freecad')
+
+from doe_config_Beamer.gui import MainWindow
+
+MainWindow.show()
